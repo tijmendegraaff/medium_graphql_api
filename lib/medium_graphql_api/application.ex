@@ -11,7 +11,7 @@ defmodule MediumGraphqlApi.Application do
       # Start the Ecto repository
       supervisor(MediumGraphqlApi.Repo, []),
       # Start the endpoint when the application starts
-      supervisor(MediumGraphqlApiWeb.Endpoint, []),
+      supervisor(MediumGraphqlApiWeb.Endpoint, [])
       # Start your own worker by calling: MediumGraphqlApi.Worker.start_link(arg1, arg2, arg3)
       # worker(MediumGraphqlApi.Worker, [arg1, arg2, arg3]),
     ]
