@@ -5,7 +5,7 @@ defmodule MediumGraphqlApi.Mixfile do
     [
       app: :medium_graphql_api,
       version: "0.0.1",
-      elixir: "~> 1.4",
+      elixir: "~> 1.7",
       elixirc_paths: elixirc_paths(Mix.env()),
       compilers: [:phoenix, :gettext] ++ Mix.compilers(),
       start_permanent: Mix.env() == :prod,
@@ -40,7 +40,11 @@ defmodule MediumGraphqlApi.Mixfile do
       {:gettext, "~> 0.11"},
       {:cowboy, "~> 1.0"},
       {:comeonin, "~> 4.0"},
-      {:argon2_elixir, "~> 1.2"}
+      {:argon2_elixir, "~> 1.2"},
+      {:absinthe, "~> 1.4.13"},
+      {:absinthe_phoenix, "~> 1.4.3"},
+      {:absinthe_plug, "~> 1.4.5"},
+      {:absinthe_ecto, "~> 0.1.3"}
     ]
   end
 
