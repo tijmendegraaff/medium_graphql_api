@@ -44,7 +44,8 @@ defmodule MediumGraphqlApi.Mixfile do
       {:absinthe, "~> 1.4.13"},
       {:absinthe_phoenix, "~> 1.4.3"},
       {:absinthe_plug, "~> 1.4.5"},
-      {:absinthe_ecto, "~> 0.1.3"}
+      {:absinthe_ecto, "~> 0.1.3"},
+      {:guardian, "~> 1.0"}
     ]
   end
 
